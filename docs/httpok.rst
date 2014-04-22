@@ -2,7 +2,7 @@
 ==================================
 
 :command:`httpok` is a supervisor "event listener" which may be subscribed to
-a concrete ``TICK_5``, ``TICK_60`` or ``TICK_3600``  event.
+a concrete ``TICK_x`` event.
 When :command:`httpok` receives a ``TICK_x``
 event (``TICK_60`` is recommended, indicating activity every 60 seconds),
 :command:`httpk` makes an HTTP GET request to a confgured URL. If the request
